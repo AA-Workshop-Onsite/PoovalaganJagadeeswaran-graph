@@ -14,7 +14,7 @@ Returns information about a specific purchase
 """
 type Order @key(fields: "id") {
   """
-  Each order has a unique id which is separate from the user or items they bought
+  Each order has a unique id which is separate from the user or items they bought 
   """
   id: ID!
 
